@@ -74,19 +74,19 @@ installHelpers.checkPrimaryDependencies(function(error) {
           name: 'authoringToolRepository',
           type: 'input',
           message: 'Git repository URL to be used for the authoring tool source code',
-          default: 'https://github.com/adaptlearning/adapt_authoring.git'
+          default: 'https://github.com/zaykhere/adapt_authoring-1.git'
         },
         {
           name: 'frameworkRepository',
           type: 'input',
           message: 'Git repository URL to be used for the framework source code',
-          default: 'https://github.com/adaptlearning/adapt_framework.git'
+          default: 'https://github.com/zaykhere/adapt_framework.git'
         },
         {
           name: 'frameworkRevision',
           type: 'input',
           message: 'Specific git revision to be used for the framework. Accepts any valid revision type (e.g. branch/tag/commit)',
-          default: 'tags/' + latestFrameworkTag
+          default: 'tags/' + '726480'
         }
       ],
       database: {
