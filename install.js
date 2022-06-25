@@ -86,7 +86,7 @@ installHelpers.checkPrimaryDependencies(function(error) {
           name: 'frameworkRevision',
           type: 'input',
           message: 'Specific git revision to be used for the framework. Accepts any valid revision type (e.g. branch/tag/commit)',
-          default: 'tags/' + '726480'
+          default: 'tags/' + '011899'
         }
       ],
       database: {
